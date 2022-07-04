@@ -32,10 +32,13 @@ code {
 }
 
 .card-img {
-  width: 400px;
+  width: 365px;
   height: 300px;
 }
-
+.card-body {
+  box-shadow: rgb(205, 205, 162) 0px 5px 10px 5px, rgb(255, 255, 255) 0px 8px 16px -8px;
+  border-radius: 5%;
+}
 a { 
   text-decoration: none;
 }
@@ -82,26 +85,50 @@ ul {
    margin: 0px auto;
    background-color: #181818;
    color: white;
-   margin-bottom: 10em;
+   margin-bottom: 2em;
    margin-top: 2em;
+   border-radius: 5%;
  }
  .projCard {
    display: flex;
    justify-content: center;
    margin: 1em 0em;
+   padding: 0;
+ }
+ .profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 15px auto 15px auto;
+  box-shadow: rgb(255, 255, 255) 0px 1px 5px 1px;
  }
 
  .contactMe {
    margin-top: 1em;
  }
+ 
 .navi {
-  box-shadow: 2px 2px 2px white;
+  box-shadow: rgb(205, 205, 162) 0px 1px 5px 1px;
   
 }
 
 div.card-title.h5 {
-  font-size: larger;
+  font-size:x-large;
   border: 2px white solid;
   vertical-align: middle;
   border-radius: 4px;
+  box-shadow: rgb(255, 255, 255) 0px 1px 5px 1px;
+
+}
+
+div.bottom.container {
+  margin: 2em auto 2em auto;
+}
+
+div.row {
+  margin: 0 auto;
+}
+
+form#contact-form {
+  width: 365px;
 }

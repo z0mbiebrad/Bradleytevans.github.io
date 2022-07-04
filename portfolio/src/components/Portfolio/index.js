@@ -20,7 +20,7 @@ export default function Portfolio() {
           <div className="con1 h3">
             <Row>
             <Col className="projCard">
-                <Card className="bg-dark text-white">
+                <Card className="bg-dark text-white"  style={{ width: "23rem" }}>
                   <Card.Img
                     src={cultural}
                     alt="Card image"
@@ -33,7 +33,7 @@ export default function Portfolio() {
                 </Card>
               </Col>
             <Col className="projCard">
-                <Card className="bg-dark text-white">
+                <Card className="bg-dark text-white"  style={{ width: "23rem" }}>
                   <Card.Img
                     src={ipa}
                     alt="Card image"

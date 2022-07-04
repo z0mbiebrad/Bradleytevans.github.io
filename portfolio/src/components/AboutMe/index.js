@@ -3,19 +3,20 @@ import { Card } from "react-bootstrap";
 import profile from "../../images/Profile-pic.png";
 export default function AboutMe() {
   return (
-      <Card className="aboutMe" style={{ width: "26rem" }}>
+      <Card className="aboutMe" style={{ width: "23rem" }}>
         <Card.Body>
           <Card.Title>About Me</Card.Title>
-          <Card.Subtitle className="mb-2 text-muted">
-            Get to know more!
-          </Card.Subtitle>
+        
           <img
             className="profile"
             src={profile}
             alt="Brad Evans looking dapper"
-            width="200px"
-            height="200px"
+            width="300px"
+            height="300px"
           ></img>
+            <Card.Subtitle className="mb-2 text-muted">
+            Get to know more!
+          </Card.Subtitle>
           <Card.Text>
             Full Stack Web Developer, passionately organized; I have an amazing eye for detail and
             immensely enjoy bringing ideas to life through excellent design

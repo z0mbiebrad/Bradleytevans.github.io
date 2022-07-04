@@ -8,7 +8,6 @@ import AboutMe from "./components/AboutMe";
 import ContactForm from "./components/Contact";
 import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
-import ParticlesBg from 'particles-bg';
 
 
 
@@ -22,14 +21,12 @@ export default function App() {
         <Routes>
             <Route path="/" element={AboutMe()} />
             <Route path="/React-Adapt-Improvise" element={AboutMe()} />
-            <Route path="/AboutMe" element={AboutMe()} />
             <Route path="/Projects" element={Portfolio()} />
             <Route path="/ContactForm" element={ContactForm()} />
             <Route path="/Resume" element={Resume()} />
           </Routes>
       <Footer></Footer>
     </StyledApp>
-    <ParticlesBg type="cobweb" color="random" num={30} bg={true} />
     </BrowserRouter>
   );
 }
