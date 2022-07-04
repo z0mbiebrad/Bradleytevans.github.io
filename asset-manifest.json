@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1bff6e61.css",
-    "main.js": "/static/js/main.66abf60d.js",
+    "main.js": "/static/js/main.a3ccb83f.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/APIs-For-IPAs.png": "/static/media/APIs-For-IPAs.4d8cc01a3ec9d0454fb5.png",
     "static/media/landingBG.jpg": "/static/media/landingBG.6ef6db913df93a631506.jpg",
@@ -10,14 +10,14 @@
     "static/media/notes.png": "/static/media/notes.bed85d6de8f3368d0678.png",
     "static/media/Profile-pic.png": "/static/media/Profile-pic.6c1283f3cd329449e694.png",
     "static/media/shreddit.png": "/static/media/shreddit.e31fa67164c9cab0bdcf.png",
-    "static/media/BradleyEvans.pdf": "/static/media/BradleyEvans.278fc56ea0f46fc4c2c0.pdf",
+    "static/media/BradleyEvans.pdf": "/static/media/BradleyEvans.9897744c127885545e65.pdf",
     "index.html": "/index.html",
     "main.1bff6e61.css.map": "/static/css/main.1bff6e61.css.map",
-    "main.66abf60d.js.map": "/static/js/main.66abf60d.js.map",
+    "main.a3ccb83f.js.map": "/static/js/main.a3ccb83f.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1bff6e61.css",
-    "static/js/main.66abf60d.js"
+    "static/js/main.a3ccb83f.js"
   ]
 }
