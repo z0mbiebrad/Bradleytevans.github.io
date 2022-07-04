@@ -37,7 +37,7 @@ export default function ContactForm() {
   };
 
   return (
-    <Container className = "contactMe">
+     <div>
       <h1 data-testid="h1tag" className='text-white'>Leave me a message or question!</h1>
       <Container className='contact'>
       <form id="contact-form" onSubmit={handleSubmit}>
@@ -61,7 +61,7 @@ export default function ContactForm() {
         <button data-testid="button" type="submit" className='bg-dark text-white'>Submit</button>
       </form>
       </Container>
-    </Container>
+      </div>
   );
 }
 
