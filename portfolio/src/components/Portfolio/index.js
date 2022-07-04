@@ -21,28 +21,26 @@ export default function Portfolio() {
             <Row>
             <Col className="projCard">
                 <Card className="bg-dark text-white"  style={{ width: "23rem" }}>
+                  <Card.Title><a href="https://cultural-eats.herokuapp.com" target="_blank" rel="noreferrer" className="text-white"><CgWebsite size={30} /> Cultural-Eats </a></Card.Title>
+                  <a class="Card.Img" href="https://cultural-eats.herokuapp.com">
                   <Card.Img
                     src={cultural}
                     alt="Card image"
                   />
-                  <Card.ImgOverlay>
-                    <Card.Title>Cultural-Eats </Card.Title>
-                    <Card.Title><a href="https://cultural-eats.herokuapp.com" target="_blank" rel="noreferrer" className="text-white"><CgWebsite size={30} /> Website </a></Card.Title>
-                    <Card.Title><a href="https://github.com/JulioRios15/Cultural-eats" target="_blank" rel="noreferrer" className="text-white"><VscGithub size={30} /> Github</a></Card.Title>
-                  </Card.ImgOverlay>
+                  </a>
+                  <Card.Title><a href="https://github.com/JulioRios15/Cultural-eats" target="_blank" rel="noreferrer" className="text-white"><VscGithub size={30} /> Repository </a></Card.Title>
                 </Card>
               </Col>
             <Col className="projCard">
                 <Card className="bg-dark text-white"  style={{ width: "23rem" }}>
+                  <Card.Title><a href="https://sdesire.github.io/APIs-For-IPAs/" target="_blank" rel="noreferrer" className="text-white"><CgWebsite size={30} /> IPA's for API's </a> </Card.Title>
+                  <a class="Card.Img" href="https://sdesire.github.io/APIs-For-IPAs/">
                   <Card.Img
                     src={ipa}
                     alt="Card image"
                   />
-                  <Card.ImgOverlay>
-                  <Card.Title>IPA's for API's</Card.Title>
-                  <Card.Title><a href="https://sdesire.github.io/APIs-For-IPAs/" target="_blank" rel="noreferrer" className="text-white"><CgWebsite size={30} /> IPA's for API's </a> </Card.Title>
-                  <Card.Title><a href="https://github.com/sdesire/APIs-For-IPAs/" target="_blank" rel="noreferrer" className="text-white"><VscGithub size={25} /> Github</a></Card.Title>
-                  </Card.ImgOverlay>
+                  </a>
+                  <Card.Title><a href="https://github.com/sdesire/APIs-For-IPAs/" target="_blank" rel="noreferrer" className="text-white"><VscGithub size={25} /> Repository </a></Card.Title>
                 </Card>
               </Col>
               </Row>

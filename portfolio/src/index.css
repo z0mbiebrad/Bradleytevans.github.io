@@ -30,18 +30,22 @@ code {
   width: 100%;
   display: block;
 }
+a { 
+  text-decoration: none;
+  margin: 5px auto 5px auto;
+  
+}
 
 .card-img {
-  width: 365px;
-  height: 300px;
+  width: 100%;
+  height: 100%;
+  box-shadow: rgb(205, 205, 162) 0px 1px 5px 1px;
 }
 .card-body {
   box-shadow: rgb(205, 205, 162) 0px 5px 10px 5px, rgb(255, 255, 255) 0px 8px 16px -8px;
   border-radius: 5%;
 }
-a { 
-  text-decoration: none;
-}
+
 
 #mouse_over {
   opacity: 0;
@@ -114,11 +118,10 @@ ul {
 
 div.card-title.h5 {
   font-size:x-large;
-  border: 2px white solid;
   vertical-align: middle;
   border-radius: 4px;
-  box-shadow: rgb(255, 255, 255) 0px 1px 5px 1px;
-
+  box-shadow: rgb(205, 205, 162) 0px 0px 5px 1px;
+  margin-bottom: 0px;
 }
 
 div.bottom.container {
@@ -131,4 +134,14 @@ div.row {
 
 form#contact-form {
   width: 365px;
+  box-shadow: rgb(205, 205, 162) 0px 0px 10px 5px, rgb(255, 255, 255) 0px 0px 16px 8px;
+  border-radius: 5%;
+}
+
+div.name.bg-dark.text-white.card {
+  border-radius: 5%;
+}
+
+div.contact.container {
+  border-radius: 5%
 }
