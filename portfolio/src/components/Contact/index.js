@@ -1,6 +1,7 @@
 import React from "react";
 import emailjs from "emailjs-com";
 import { Form, Input, TextArea, Button } from "semantic-ui-react";
+import { Card, Container } from 'react-bootstrap';
 import Swal from "sweetalert2";
 
 
@@ -29,37 +30,24 @@ const ContactForm = () => {
   };
 return (
   <div>
-      <Form onSubmit={handleOnSubmit}>
-        <Form.Field
-          id="form-input-control-email"
-          control={Input}
-          label="Email"
-          name="user_email"
-          placeholder="Email…"
-          required
-          icon="mail"
-          iconPosition="left"
-        />
-        <Form.Field
-          id="form-input-control-last-name"
-          control={Input}
-          label="Name"
-          name="user_name"
-          placeholder="Name…"
-          required
-          icon="user circle"
-          iconPosition="left"
-        />
-        <Form.Field
-          id="form-textarea-control-opinion"
-          control={TextArea}
-          label="Message"
-          name="user_message"
-          placeholder="Message…"
-          required
-        />
-        <Button type="submit" color="green">Submit</Button>
-      </Form>
+    <h1 data-testid="h1tag" className='text-white'>Leave me a message or question!</h1>
+    <Container className='contact'>
+    <form id="contact-form" onSubmit={handleOnSubmit}>
+        <Card className="name bg-dark text-white">
+          <label htmlFor="Email">Email</label>
+          <input placeholder="Email…" type="text" name="user_email" size="50"   />
+        </Card>
+        <Card className="name bg-dark text-white">
+          <label htmlFor="Name">Name</label>
+          <input placeholder="Name..." type="text" name="user_name" size="50"   />
+        </Card>
+        <Card className='name bg-dark text-white'>
+          <label htmlFor="Message">Message:</label>
+          <textarea name="user_message" rows="3"/>
+        </Card>
+        <button data-testid="button" type="submit" className='bg-dark text-white'>Submit</button>
+        </form>
+      </Container>
     </div>
   );
 }

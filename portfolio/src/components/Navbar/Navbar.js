@@ -7,7 +7,7 @@ export default function Navibar() {
      bg="dark" variant="dark"
     >
       <Container>
-          <Navbar.Brand as={NavLink} activeclassname="active" to="/">Bradley Evans</Navbar.Brand>
+          <Navbar.Brand as={NavLink} activeclassname="active" bg="dark" variant="dark" to="/">Bradley Evans</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">

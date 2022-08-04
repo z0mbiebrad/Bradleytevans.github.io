@@ -15,6 +15,7 @@ code {
 }
 
 .container {
+  color: rgb(205, 205, 162);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,19 +25,9 @@ code {
   height: 100%;
 }
 
-.navbar-brand {
-  text-align: center;
-  margin: 0px auto;
-  width: 100%;
-  display: block;
-  height: 1em;
-}
 
-a { 
-  text-decoration: none;
-  margin: 5px auto 5px auto;
-  
-}
+
+
 
 .card-img {
   width: 100%;
@@ -62,9 +53,31 @@ ul {
   margin: 0px auto;
   font-size: x-large;
 }
-.active {
-  text-decoration: line-through;
+/* NAVIGATION */
+a { 
+  text-decoration: none;
+  margin: 5px auto 5px auto;
+  
 }
+.active {
+  text-decoration-color:rgb(205, 205, 162);
+  text-decoration:underline;
+
+}
+.navi {
+  box-shadow: rgb(205, 205, 162) 0px 1px 5px 1px;
+}
+.navbar-brand {
+  text-align: center;
+  margin: 10px auto;
+  width: 100%;
+  display: block;
+  height: 1em;
+}
+.navbar-dark {
+  color: rgb(205, 205, 162);
+}
+/*  */
 .overflow {
   overflow-y: scroll;
   height: 100%;
@@ -99,8 +112,9 @@ ul {
  }
  .projCard {
    display: flex;
+   font-size: small;
    justify-content: center;
-   margin: 1em 0em;
+   margin: 1em 1em;
    padding: 0;
  }
  .profile {
@@ -111,11 +125,7 @@ ul {
   box-shadow: rgb(255, 255, 255) 0px 1px 5px 1px;
  }
 
-.navi {
-  box-shadow: rgb(205, 205, 162) 0px 1px 5px 1px;
-  text-decoration:underline;
-  
-}
+
 
 div.card-title.h5 {
   font-size:x-large;
