@@ -70,7 +70,7 @@ export default function Portfolio() {
                     <Card.Title><a href="https://github.com/Bradleytevans/notes-on-notes" target="_blank" rel="noreferrer" className="text-white"><CgWebsite size={30} /> Note Taker </a> </Card.Title>
                     <a class="Card.Img" href="https://github.com/Bradleytevans/notes-on-notes">
                     <Card.Img
-                      src={team}
+                      src={notes}
                       alt="Card image"
                     />
                     </a>
