@@ -95,7 +95,9 @@ a {
   margin-inline-start: inherit;
   margin-inline-end: inherit;
  }
-
+ .card1 {
+  height: 244px;
+ }
  button.bg-dark {
   box-shadow: rgb(205, 205, 162) 0px 1px 5px 1px;
   border-radius: 5%;

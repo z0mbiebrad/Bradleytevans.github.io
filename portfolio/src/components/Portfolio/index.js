@@ -4,6 +4,8 @@ import cultural from "../../images/landingBG.jpg"
 import ipa from "../../images/APIs-For-IPAs.png";
 import team from "../../images/team.png"
 import notes from "../../images/notes.png"
+import calculator from "../../images/calculator.png"
+import readme from "../../images/readme.png"
 import { VscGithub } from "react-icons/vsc";
 import { CgWebsite } from "react-icons/cg"
 
@@ -77,7 +79,42 @@ export default function Portfolio() {
                     <p>
                       A note taking application that allows the user to store and delete notes. It was built using express and deployed live with heroku.
                     </p>
+                    <br></br>
                     <Card.Title><a href="https://github.com/Bradleytevans/notes-on-notes" target="_blank" rel="noreferrer" className="text-white"><VscGithub size={25} /> Repository </a></Card.Title>
+                  </Card>
+                </Col>
+              </Row>
+              <Row>
+                <Col className="projCard">
+                  <Card className="bg-dark text-white"  style={{ width: "23rem" }}>
+                    <Card.Title><a href="https://github.com/Bradleytevans/Iphone-Calculator" target="_blank" rel="noreferrer" className="text-white"><CgWebsite size={30} /> Iphone Calculator </a> </Card.Title>
+                    <a class="Card.Img" href="https://github.com/Bradleytevans/Iphone-Calculator">
+                    <Card.Img
+                      src={calculator}
+                      alt="Card image"
+                    />
+                    </a>
+                    <p>
+                      An Iphone calculator made using React,HTML, and CSS.
+                    </p>
+                    <br></br>
+                    <Card.Title><a href="https://github.com/Bradleytevans/Iphone-Calculator" target="_blank" rel="noreferrer" className="text-white"><VscGithub size={25} /> Repository </a></Card.Title>
+                  </Card>
+                </Col>
+                <Col className="projCard">
+                  <Card className="bg-dark text-white"  style={{ width: "23rem" }}>
+                    <Card.Title><a href="https://github.com/Bradleytevans/README-generater" target="_blank" rel="noreferrer" className="text-white"><CgWebsite size={30} /> README Generator </a> </Card.Title>
+                    <a class="Card.Img" href="https://github.com/Bradleytevans/README-generater">
+                    <Card.Img
+                      src={readme}
+                      alt="Card image"
+                    />
+                    </a>
+                    <p>
+                      It is a Node.js project that uses Inquire and Javascript to create aesthetically pleasing README.md's
+                    </p>
+                    <br></br>
+                    <Card.Title><a href="https://github.com/Bradleytevans/README-generater" target="_blank" rel="noreferrer" className="text-white"><VscGithub size={25} /> Repository </a></Card.Title>
                   </Card>
                 </Col>
               </Row>
